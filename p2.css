@@ -1,3 +1,15 @@
 td {
     outline: solid black;
+    color: rgb(0, 170, 255);
+}
+table {
+    color:  blueviolet;
+}
+
+tr {
+    font-size: x-large;
+}
+tbody {
+    outline: color( red green blue);
+    font-size: xx-small;
 }
