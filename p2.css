@@ -1,15 +1,33 @@
 td {
     outline: solid black;
     color: rgb(0, 170, 255);
-}
-table {
-    color:  blueviolet;
+} 
+ 
+
+td:hover {
+  background-color: lightblue;
+  
 }
 
-tr {
-    font-size: x-large;
+td:active {
+  background-color: lightcoral;
 }
-tbody {
-    outline: color( red green blue);
-    font-size: xx-small;
+
+
+td:focus {
+  outline: 2px solid blue;
 }
+
+
+td:first-child {
+  background-color: #7700ff;
+ 
+}
+
+td:last-child {
+  background-color: #2f6600;
+}
+
+
+
+
